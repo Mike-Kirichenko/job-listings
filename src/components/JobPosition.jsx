@@ -4,7 +4,6 @@ import Card from "../UI/Card";
 import Stack from "../UI/Stack";
 
 const JobPosition = ({
-  id,
   company,
   logo,
   new: isNew,
