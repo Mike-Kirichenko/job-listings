@@ -7,7 +7,7 @@ import { rootReducer } from "./root-reducer";
 const persistConfig = {
   key: "root",
   storage,
-  // whitelist: [],
+  whitelist: ["filters"],
   // blacklist: [],
 };
 
